@@ -1,0 +1,72 @@
+[
+  {
+  "id": 0,
+  "name": "Josef Bugman",
+  "strength": 10,
+  "intelligence": 7,
+  "speed": 9
+  },
+  {
+  "id": 1,
+  "name": "Vlad Von Carstein",
+  "strength": 7,
+  "intelligence": 10,
+  "speed": 6
+  },
+  {
+  "id": 2,
+  "name": "Vilkmar the Grim",
+  "strength": 5,
+  "intelligence": 9,
+  "speed": 7
+  },
+  {
+  "id": 3,
+  "name": "Archaon, Lord of the End Times",
+  "strength": 5,
+  "intelligence": 6,
+  "speed": 10
+  },
+  {
+  "id": 4,
+  "name": "Grombrindal, the White Dwarf",
+  "strength": 7,
+  "intelligence": 8,
+  "speed": 7
+  },
+  {
+  "id": 5,
+  "name": "Grimgor Ironhide",
+  "strength": 8,
+  "intelligence": 7,
+  "speed": 8
+  },
+  {
+  "id": 6,
+  "name": "Teclis",
+  "strength": 9,
+  "intelligence": 8,
+  "speed": 6
+  },
+  {
+  "id": 7,
+  "name": "King Louen Leonceour",
+  "strength": 5,
+  "intelligence": 9,
+  "speed": 7
+  },
+  {
+  "id": 8,
+  "name": "Orion",
+  "strength": 5,
+  "intelligence": 8,
+  "speed": 8
+  },
+  {
+  "id": 9,
+  "name": "Wulfrik the Wanderer",
+  "strength": 10,
+  "intelligence": 9,
+  "speed": 7
+  }
+]
