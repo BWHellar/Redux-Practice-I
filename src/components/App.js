@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CharacterList from './CharacterList';
 import '../styles/index.css';
-import HeroList from './HeroList'
+import HeroList from './HeroList';
 
 class App extends Component {
   render() {

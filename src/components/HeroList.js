@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { removeCharacterById } from '../actions';
 
 class HeroList extends Component {
   render(){
     return (
       <div>
         <h4> Your Squad </h4>
-        <ul classNmae="">
+        <ul className="list-group">
         {
           this.props.heroes.map(hero => {
             return (
               <li key={hero.id} className="list-group-item">
                 <div className="list-item">
                   {hero.name}
+                </div>
+                <div className="list-item right-button"
+                  onClick={() => this.props.removeCharacterById(hero.id)}>
+                  X
                 </div>
               </li>
             )
@@ -30,4 +35,4 @@ function mapStateToProps(state){
   }
 }
 
-export default connect(mapStateToProps, null)(HeroList);
+export default connect(mapStateToProps, {removeCharacterById})(HeroList);
